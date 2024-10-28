@@ -1,7 +1,7 @@
 configuration: Release
 
 before_build:
-  - nuget restore
+  - dotnet restore Sexshop_TutsiPop.sln
   - dotnet publish -c Release -o out
 build:
   verbosity: minimal

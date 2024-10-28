@@ -7,6 +7,5 @@ build:
   verbosity: minimal
   publish_wap: true
 
-  # Comandos de construcción aquí
-  commands:
-    - dotnet publish Sexshop_TutsiPop/Sexshop_TutsiPop.sln -c Release -o out
+build_script:
+  - dotnet publish Sexshop_TutsiPop/Sexshop_TutsiPop.sln -c Release -o out

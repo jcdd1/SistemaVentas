@@ -1,0 +1,5 @@
+build:
+  verbosity: minimal
+  publish_wap: true
+  - dotnet restore
+  - dotnet publish -c Release -o out

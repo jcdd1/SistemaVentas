@@ -1,6 +1,6 @@
 configuration: Release
 
-befor_build:
+before_build:
   - nuget restore
   - dotnet publish -c Release -o out
 build:
